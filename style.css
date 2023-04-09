@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+h1{
+    background-color: aquamarine;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.btns{
+    background-color:white ;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btns button{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    opacity: 0.7;
+}
+
+
+#container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:01rem;
+    justify-items: center;
+    margin: auto;
+    padding: 1rem;
+    height: 69vh;
+    align-items: center;
+}
+
+#container .square{
+    width: 90px;
+    height: 90px;
+    /* margin: 1rem; */
+    background-color: pink;
+    border-radius: 15px;
+    cursor: pointer;
+}
